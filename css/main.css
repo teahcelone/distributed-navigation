@@ -1,5 +1,4 @@
 html {
-box-sizing: html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5rem;
@@ -22,11 +21,29 @@ header {
 }
 
 h1 {
-  margin: 0;
+  margin: .5;
 }
 
-header .img {
-  width: 2.25rem;
+img {
+  width: 2rem;
   order: -1;
+  margin: .5rem;
+}
 
+p {
+  margin: auto;
+}
+
+nav ul {
+  margin: .5rem;
+  padding: 1rem;
+  list-style-type: none;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+nav a {
+  color: #0074d9;
+  text-decoration: none;
+  padding: .75em 1em .6em;
 }
